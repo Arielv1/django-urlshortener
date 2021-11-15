@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "7cef5e88-ca82-44d3-9bbd-bd32124a2ab9",
+		"name": "Pcentra",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create new short url",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "X-CSRFToken",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"url\": \"http://ravkavonline.co.il\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/create/",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"create",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LookUp",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/asd/",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"asd",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
