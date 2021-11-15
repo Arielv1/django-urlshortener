@@ -5,3 +5,6 @@ Possible problems with the current setup:
         by date (essentialy a timeout).
     - Another possible problem is integer overflow with incrementing the number of times a url had been 
         clicked.
+    - Added posgresql integration instead of the default sqlite, changing between them is as simple as
+        commenting in settings.py the configuration of postgresql and uncommenting the default configuration 
+        for sqlite.
