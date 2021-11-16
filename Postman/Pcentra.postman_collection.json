@@ -24,7 +24,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"url\": \"http://ravkavonline.co.il\"\r\n}",
+					"raw": "{\r\n    \"url\": \"https://ravkavonline.co.il\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -51,13 +51,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8000/asd/",
+					"raw": "localhost:8000/bf9fa9/",
 					"host": [
 						"localhost"
 					],
 					"port": "8000",
 					"path": [
-						"asd",
+						"bf9fa9",
 						""
 					]
 				}
