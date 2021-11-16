@@ -8,3 +8,5 @@ Possible problems with the current setup:
     - Added posgresql integration instead of the default sqlite, changing between them is as simple as
         commenting in settings.py the configuration of postgresql and uncommenting the default configuration 
         for sqlite.
+    - Containing in Postman folder is are examples of POST & GET HTTP requests.
+   
